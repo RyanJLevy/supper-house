@@ -1,13 +1,16 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;600;700&display=swap');
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@layer components {
+  .gradient {
+    @apply from-supper-green to-supper-pink bg-gradient-to-r;
+  }
+  .title-text {
+    @apply font-bold outline-2 outline-white text-8xl md:text-[200px] bg-[url('images/last-supper.png')] bg-clip-text bg-contain text-transparent cursor-default;
+  }
+  .event-header-text {
+    @apply font-bold text-2xl md:text-[35px] lg:text-[55px];
+  }
 }

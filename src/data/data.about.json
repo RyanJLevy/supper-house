@@ -1,0 +1,58 @@
+{
+    "people": [
+        {
+            "id": 1,
+            "name": "Ryan Levy",
+            "age": 21,
+            "bio": "Some people call me Budgey, some people call me Jetski, but you can call me anytime ;)",
+            "pic": "/ryan.jpg",
+            "bg": "bg-supper-blue",
+            "border": "border-supper-blue"
+        },
+        {
+            "id": 2,
+            "name": "Matt Levy",
+            "age": 21,
+            "bio": "If I could kick you in the shins right now, I would.",
+            "pic": "/matt.jpg",
+            "bg": "bg-supper-green",
+            "border": "border-supper-green"
+        },
+        {
+            "id": 3,
+            "name": "Jav Richards",
+            "age": 20,
+            "bio": "If I had a quarter for every game of tick tack toe I've ever won, I'd have zero quarters. Haha I don't know how to play tick tack toe.",
+            "pic": "/jav.jpg",
+            "bg": "bg-supper-pink",
+            "border": "border-supper-pink"
+        },
+        {
+            "id": 4,
+            "name": "Sarah Goldman",
+            "age": 20,
+            "bio": "Nothing like the smell of Axe Apollo Men's Body Spray™ in the morning!",
+            "pic": "/slug.jpg",
+            "bg": "bg-supper-blue",
+            "border": "border-supper-blue"
+        },
+        {
+            "id": 5,
+            "name": "Abbey Martichenko",
+            "age": 20,
+            "bio": "Why aren't there triangular door knobs?",
+            "pic": "/ubbs.jpg",
+            "bg": "bg-supper-green",
+            "border": "border-supper-green"
+        },
+        {
+            "id": 6,
+            "name": "Zoe Nussbaum",
+            "age": 21,
+            "bio": "My favorite species of bird to bird-watch is the small billed finch! Something about their characteristically small bills really gets me going!",
+            "pic": "/pert.jpg",
+            "bg": "bg-supper-pink",
+            "border": "border-supper-pink"
+        }
+    ]
+}
