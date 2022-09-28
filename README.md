@@ -7,6 +7,7 @@
 
 ## What I learned:
 * Setting up and using Firebase collections and authentication with React.
+* Using context to manage user log ins.
 * Using .env file to hide API keys and secrets.
 * Creating framer motion properties in conjuction with [useInView](https://www.npmjs.com/package/use-in-view) hook to create profile animations.
 * Using Tailwind's built-in dark mode accessibility and high order class to create full dark/light mode functionality.
