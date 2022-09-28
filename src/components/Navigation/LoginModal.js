@@ -84,15 +84,12 @@ function LoginModal({ setToggle }) {
           </button>
         </form>
         <div className="flex justify-center items-center space-x-1 py-4 mt-2 border-t-[1px] border-t-supper-light-gray">
-          <p className="text-supper-dark-gray dark:text-supper-light-gray text-xs md:text-sm">
-            haven't pledged your soul to us yet?{" "}
+          <p className="text-supper-dark-gray dark:text-supper-light-gray text-xs md:text-sm p-0">
+            haven't pledged your soul to us yet?
           </p>
-          <a
-            href="#"
-            className="text-supper-pink cursor-pointer text-xs md:text-sm"
-          >
+          <p className="text-supper-pink cursor-pointer text-xs md:text-sm p-0">
             create an account
-          </a>
+          </p>
         </div>
       </dialog>
     </div>

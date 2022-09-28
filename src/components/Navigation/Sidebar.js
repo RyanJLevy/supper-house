@@ -1,6 +1,6 @@
-import { UserIcon, SunIcon, MoonIcon } from "@heroicons/react/24/solid";
+import { SunIcon, MoonIcon } from "@heroicons/react/24/solid";
 import { XCircleIcon } from "@heroicons/react/24/outline";
-import { useEffect, useRef } from "react";
+import { useRef } from "react";
 import LoginButton from "./LoginButton";
 
 function Sidebar(props) {

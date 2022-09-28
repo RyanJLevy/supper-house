@@ -28,7 +28,7 @@ function Events() {
 
     getUpcomingEvents();
     getPreviousEvents();
-  }, [upcomingEvents[0]?.id, previousEvents[0]?.id]);
+  }, []);
 
   const [previousActive, setPreviousActive] = useState(false);
   const [upcomingActive, setUpcomingActive] = useState(true);
