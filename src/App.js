@@ -1,10 +1,11 @@
-import Main from './components/Main';
+import { AppContextWrapper } from "./AppContext";
+import Main from "./components/Main";
 
 function App() {
   return (
-    <div className="">
+    <AppContextWrapper>
       <Main />
-    </div>
+    </AppContextWrapper>
   );
 }
 
