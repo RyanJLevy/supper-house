@@ -46,15 +46,15 @@ function Events() {
       id="events-section"
       className="w-full flex flex-col items-center shadow-inner py-10 mb-10 border-t-transparent dark:shadow-none dark:border-t-supper-dark-gray border-t-2"
     >
-      <fieldset className="border-supper-dark-gray border-2 rounded-md w-[80%] flex flex-col justify-center items-center px-6 py-10">
+      <fieldset className="border-supper-dark-gray border-2 rounded-md w-[90%] md:w-[80%] flex flex-col justify-center items-center px-6 py-10">
         <legend className="flex justify-center items-center m-auto w-auto rounded-md">
-          <div className="flex justify-center items-center mx-2">
+          <div className="flex justify-center items-center space-x-1">
             <button
               data-type={"previous"}
               className={
                 previousActive
-                  ? "text-supper-dark-gray dark:text-supper-light-gray event-header-text"
-                  : "text-supper-light-gray dark:text-supper-dark-gray event-header-text"
+                  ? "z-[50] text-supper-dark-gray dark:text-supper-light-gray event-header-text"
+                  : "z-[50] text-supper-light-gray dark:text-supper-dark-gray event-header-text"
               }
               onClick={HandleButtonClick}
             >
@@ -67,15 +67,15 @@ function Events() {
               data-type={"upcoming"}
               className={
                 upcomingActive
-                  ? "text-supper-dark-gray dark:text-supper-light-gray event-header-text"
-                  : "text-supper-light-gray dark:text-supper-dark-gray event-header-text"
+                  ? "z-[50] text-supper-dark-gray dark:text-supper-light-gray event-header-text"
+                  : "z-[50] text-supper-light-gray dark:text-supper-dark-gray event-header-text"
               }
               onClick={HandleButtonClick}
             >
               upcoming
             </button>
+            <h1 className="event-header-text text-supper-pink">events.</h1>
           </div>
-          <h1 className="event-header-text text-supper-pink">events.</h1>
         </legend>
         <div className="flex w-full flex-col py-6 space-y-6 md:space-y-0 md:flex-row items-center overflow-hidden flex-wrap md:space-x-10 justify-center">
           {upcomingActive &&
@@ -86,7 +86,7 @@ function Events() {
             previousEvents.map((event) => {
               return (
                 <div
-                  className="w-80 h-80 object-cover rounded-bl-xl rounded-tr-xl overflow-hidden relative hover:scale-105 border-[1px] border-supper-light-gray cursor-default"
+                  className=" w-72 h-72 md:w-80 md:h-80 object-cover rounded-bl-xl rounded-tr-xl overflow-hidden relative hover:scale-105 border-[1px] border-supper-light-gray cursor-default"
                   key={event.id}
                 >
                   <h1 className="max-w-[50%] absolute top-10 left-[25%] text-white text-center bg-supper-black bg-opacity-75 p-4 text-2xl">

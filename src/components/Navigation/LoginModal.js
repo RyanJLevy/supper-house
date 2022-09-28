@@ -36,7 +36,7 @@ function LoginModal({ setToggle }) {
 
   return (
     <div className="absolute z-[99] top-0 left-0 bottom-0 right-0 min-w-[100vw] min-h-[100vh] bg-black bg-opacity-40 flex justify-center p-40">
-      <dialog className="flex flex-col w-[65%] md:w-[55%] lg:w-[35%] bg-white dark:bg-supper-black rounded-bl-xl rounded-tr-xl items-center py-8">
+      <dialog className="flex flex-col w-[75%] md:w-[55%] lg:w-[35%] bg-white dark:bg-supper-black rounded-bl-xl rounded-tr-xl items-center py-8">
         <XCircleIcon
           className="w-8 absolute top-3 right-4 text-supper-dark-gray hover:text-supper-pink p-1 py-0 rounded-sm cursor-pointer dark:text-supper-pink dark:hover:text-supper-light-gray hover:text-opacity-70"
           onClick={() => setToggle(false)}
@@ -83,12 +83,12 @@ function LoginModal({ setToggle }) {
             login
           </button>
         </form>
-        <div className="flex justify-center items-center space-x-1 py-4 mt-2 border-t-[1px] border-t-supper-light-gray">
+        <div className="flex justify-center items-center space-x-1 py-4 mt-2 border-t-[1px] border-t-supper-light-gray w-full md:w-[60%]">
           <p className="text-supper-dark-gray dark:text-supper-light-gray text-xs md:text-sm p-0">
-            haven't pledged your soul to us yet?
+            want an account?
           </p>
           <p className="text-supper-pink cursor-pointer text-xs md:text-sm p-0">
-            create an account
+            create an account!
           </p>
         </div>
       </dialog>
