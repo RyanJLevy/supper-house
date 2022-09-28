@@ -5,17 +5,6 @@ import LoginButton from "./LoginButton";
 
 function Sidebar(props) {
   const popupRef = useRef();
-  // useEffect(() => {
-  //     const handleClickOutside = (event) => {
-  //         if (props.menuToggled) {
-  //             if (popupRef.current && !popupRef.current.contains(event.target) && !event.target.classList.contains('hamburger')) {
-  //                 props.setSideMenuToggle(false);
-  //             }
-  //         }
-  //     };
-
-  //     window.addEventListener('click', handleClickOutside);
-  // }, [popupRef, props]);
 
   const HandleSectionClick = (elementID) => {
     props.setSideMenuToggle(false);
