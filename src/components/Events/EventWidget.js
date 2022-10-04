@@ -70,7 +70,7 @@ function EventWidget({ data }) {
         {!ableToAttend && (
           <>
             <h2 className="dark:text-supper-light-gray text-supper-dark-gray text-xl italic">
-              hey fucka, you coming?
+              hey bruv, you coming?
             </h2>
             <div className="flex justify-center items-center pt-4">
               <CheckCircleIcon
